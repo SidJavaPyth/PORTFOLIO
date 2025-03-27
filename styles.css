@@ -544,14 +544,14 @@ html {
 }
 
 .container {
-   animation: appear linear;
+   animation: appear 3s linear;
    animation-timeline: view();
    animation-range: entry 0 cover
    40%;
 }
 
 .whychooseus{
-    animation: appear linear;
+    animation: appear 3s linear;
     animation-timeline: view();
     animation-range: entry 0 cover
     40%; 
