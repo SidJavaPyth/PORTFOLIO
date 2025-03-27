@@ -1,0 +1,845 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+
+.title {
+    color: rgba(204, 201, 201, 0.6);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+
+.title:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    transition: 0.3s ease;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.About_me:hover,
+.Projects:hover,
+.Achievements:hover,
+.Back_to_homepage {
+    color: rgb(204, 202, 202);
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 140px;
+}
+
+.first_line {
+    width: 90%;
+    border: 2px solid rgb(63, 55, 55);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    margin: 60px 155px;
+}
+
+#Hi {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#Hi {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#SidJavaPyth {
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 123, 0);
+}
+
+#FE {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#Dev {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    position: relative;
+    top: -20px;
+    margin-left: 140px;
+}
+
+.Coding_Laptop {
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(20px 10px 13px black);
+}
+
+#github {
+    color: white;
+    font-size: 24px;
+}
+
+#github:hover {
+    color: rgb(204, 202, 202);
+}
+
+.header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(204, 202, 202);
+}
+
+.medal {
+    height: 5em;
+    width: 4em;
+}
+
+.quoteline {
+    width: 90%;
+    border: 2px solid rgb(63, 55, 55);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+}
+
+.quoteline1 {
+    width: 90%;
+    border: 2px solid rgb(63, 55, 55);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.quote1 {
+    color: white;
+    text-align: center;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.sayer {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: -100px;
+    top: 3px;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.title_second {
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgba(204, 201, 201, 0.8);
+    margin-left: 8rem;
+    margin-top: 160px;
+}
+
+.websitemaking {
+    background-color: #292929;
+    height: 320px;
+    width: 240px;
+    border-radius: 10px;
+    margin-left: 10rem;
+    margin-top: 4em;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.websitemaking:hover {
+    transform: scale(1.1);
+}
+
+.heading4 {
+    margin-top: 60px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.second_line {
+    width: 20%;
+    border: 2px solid rgb(63, 55, 55);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.website_para {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    color: white;
+    text-align: center;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.Basic_heading {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.website_list {
+    margin-left: -20px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.website_list1 {
+    margin-left: -20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Winky Sans", sans-serif;
+}
+
+.Price_Tag {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #FFA500;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: -20px;
+    text-shadow: 2px 2px 5px rgba(255, 165, 0, 0.5);
+    ;
+}
+
+.buy4 {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #FFA500, #FF8C00);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 10px rgba(255, 140, 0, 0.5);
+}
+
+.buy4:hover {
+    background: linear-gradient(45deg, #FF8C00, #FFA500);
+    filter: drop-shadow(10px 10px 30px black);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.buy4:active {
+    transform: scale(0.98);
+}
+
+.buy4container {
+    display: flex;
+    justify-content: center;
+}
+
+.websitemaking1 {
+    margin-left: auto;
+    margin-right: auto;
+    place-content: center;
+    background-color: #292929;
+    height: 300px;
+    width: 240px;
+    border-radius: 10px;
+    margin-top: 3em;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.websitemaking1:hover {
+    transform: scale(1.1);
+}
+
+.websitemaking1 h4 {
+    position: relative;
+    top: -20px;
+}
+
+.websitemaking1 h3 {
+    font-size: 90px;
+    position: relative;
+    top: -20px;
+}
+
+.third_line {
+    width: 28%;
+    border: 2px solid rgb(63, 55, 55);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.CreatAff {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.VMbuttons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.buttons {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #FFA500, #FF8C00);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 10px rgba(255, 140, 0, 0.5);
+}
+
+.buttons:hover {
+    background: linear-gradient(45deg, #FF8C00, #FFA500);
+    filter: drop-shadow(10px 5px 20px black);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.buttons:active {
+    transform: scale(0.98);
+}
+
+.certificate {
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 160px;
+    position: relative;
+    margin-top: 10px;
+    /* filter: drop-shadow(2px 2px 20px black); */
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-right: 80px;
+}
+
+.title_special {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    color: rgba(204, 201, 201, 0.8);
+    margin-left: 4rem;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #292929;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card_heading {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffa500;
+    /* Keep orange for headings if you like it */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.whychooseus div:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.whychooseus {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 5px;
+}
+
+.card_para {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: "Winky Sans", sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    ;
+}
+
+.headingfour {
+    margin-top: 100px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* .whychooseus::after{
+    content: "";
+    display: block;
+    height: 250px;
+    visibility: hidden;
+} */
+
+.footer_div {
+    margin-top: 40px;
+    background-color: #121212;
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headingfourr {
+    position: relative;
+    top: 20px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Winky Sans", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover {
+    color: rgb(80, 80, 80);
+}
+
+.footer-section ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.github-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.github-btn:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.container {
+   animation: appear 3s linear;
+   animation-timeline: view();
+   animation-range: entry 0 cover
+   40%;
+}
+
+.whychooseus{
+    animation: appear 3s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover
+    40%; 
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Coding_Laptop {
+        width: 80%;
+        height: auto;
+    }
+
+    .prices .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .websitemaking {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        margin: 20px 40px;
+    }
+
+    .main_content {
+        margin: 40px 40px;
+    }
+
+    .title_second {
+        margin-left: 4rem;
+        margin-top: 80px;
+    }
+
+    .title_special {
+        margin-left: 4rem;
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header .title {
+        font-size: 1.5rem;
+    }
+
+    .main_content p {
+        font-size: 1.2rem;
+    }
+
+    .prices .container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .main_content {
+        margin: 20px 20px;
+    }
+
+    .title_second {
+        margin-left: 2rem;
+        margin-top: 120px;
+    }
+
+    .title_special {
+        margin-left: 4rem;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .card {
+        height: 210px;
+    }
+
+    .navbar ul {
+        align-items: center;
+        margin-top: 20px;
+        gap: 80px;
+        flex-direction: row;
+    }
+
+    #Dev {
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        color: rgba(204, 201, 201, 0.8);
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .Coding_Laptop {
+        display: none;
+    }
+
+    .website_para {
+        margin-bottom: 20px;
+    }
+
+    .websitemaking {
+        width: 280px !important;
+        margin-bottom: 20px;
+    }
+
+    .headingfour {
+        margin-top: -1px;
+    }
+
+    .whychooseus {
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .card_heading {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        align-items: center;
+        margin-top: 20px;
+        gap: 80px;
+        flex-direction: row;
+    }
+
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .main_content p {
+        font-size: 1rem;
+    }
+
+    .prices .container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .websitemaking {
+        width: 280px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .website_para {
+        margin-bottom: 20px;
+    }
+
+
+    .main_content {
+        margin: 10px 10px;
+    }
+
+    .title_second {
+        margin-left: 1rem;
+        margin-top: 100px;
+    }
+
+    .title_special {
+        margin-left: 4rem;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    #Dev {
+        text-align: center;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        color: rgba(204, 201, 201, 0.8);
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .Coding_Laptop {
+        display: none;
+    }
+
+    .headingfour {
+        margin-top: -1px;
+    }
+    .whychooseus {
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .card_heading {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .card {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar ul {
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .main_content p {
+        font-size: 0.9rem;
+    }
+
+    .prices .container{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .main_content {
+        margin: 5px 5px;
+    }
+
+    .title_second {
+        margin-left: 0.5rem;
+        margin-top: 120px;
+    }
+
+    .title_special {
+       position: relative;
+       left: -40px;
+    }
+
+    .Coding_Laptop {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        height: 160px;
+    }
+    .VMbuttons{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer-section{
+        display: none;
+    }
+}
