@@ -543,6 +543,20 @@ html {
     scroll-behavior: smooth;
 }
 
+.container {
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0 cover
+   40%;
+}
+
+.whychooseus{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover
+    40%; 
+}
+
 @media (max-width: 1200px) {
     .navbar {
         flex-direction: column;
